@@ -131,3 +131,5 @@ LOGIN_REDIRECT_URL = 'home'
 EMAIL_BACKEND = config('EMAIL_BACKEND', default='django.core.mail.backends.smtp.EmailBackend')
 
 LOGIN_URL = 'login'
+
+#0 4 * * * /usr/bin/certbot renew --quiet
